@@ -62,13 +62,13 @@ You can also install the in-development version with::
     pip install https://github.com/fmorton/robot-tasks/archive/main.zip
 
 
-Tasks Example
-=============
+Tasks Example with a Birdbrain Robot
+====================================
 
 .. code-block:: python
 
   from birdbrain import Hummingbird
-  from birdbrain import Tasks
+  from tasks import Tasks
 
   async def task_1(bird):
     while True:
@@ -97,6 +97,6 @@ Tasks Example
 Testing
 =======
 
-To run all the tests run (hummingbird (with micro:bit v2) on 'A' and finch on 'B')::
+To run all the tests run::
 
     pytest
