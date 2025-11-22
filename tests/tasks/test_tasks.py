@@ -1,4 +1,4 @@
-from tasks.tasks import Tasks
+from robot.tasks import Tasks
 
 
 async def method_1(p):
