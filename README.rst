@@ -67,8 +67,8 @@ Tasks Example with a Birdbrain Robot
 
 .. code-block:: python
 
-  from birdbrain import Hummingbird
-  from tasks import Tasks
+  from robot.hummingbird import Hummingbird
+  from robot.tasks import Tasks
 
   async def task_1(bird):
     while True:
